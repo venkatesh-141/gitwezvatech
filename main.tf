@@ -1,7 +1,7 @@
 provider "aws" {
- region = us-east
+ region = "us-east-1"
 }
 
 resource "aws_instance" {
- type ="t2.micro
+ type = "t2.micro"
 }
