@@ -3,5 +3,5 @@ provider "aws" {
 }
 
 resource "aws_instance" {
- type = "t2.micro"
+ type = var.type
 }
